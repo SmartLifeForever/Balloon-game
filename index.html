@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balloon Game | Pop balloons to score!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Affichage du score et du temps -->
+    <div class="scoreboard">
+        <div>Score: <span id="score">0</span></div>
+        <div>Temps: <span id="timer">60</span>s</div>
+        <div>Meilleur score: <span id="high-score">0</span></div>
+    </div>
+
+    <!-- Musique de fond -->
+    <audio id="background-music" loop>
+        <source src="assets/background-music.mp3" type="audio/mp3">
+    </audio>
+
+    <!-- Effet sonore pour le pop des ballons -->
+    <audio id="pop-sound">
+        <source src="assets/pop-sound.mp3" type="audio/mp3">
+    </audio>
+
+    <!-- Écran de fin -->
+    <div id="game-over">
+        <h1>Temps écoulé !</h1>
+        <p>Score final : <span id="final-score">0</span></p>
+        <button onclick="restartGame()">Rejouer</button>
+    </div>
+
+    <!-- Script du jeu -->
+    <script src="script.js"></script>
+</body>
+                                                   </html>
