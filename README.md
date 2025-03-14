@@ -1,4 +1,4 @@
-# 🎈 Balloon Game - Version Améliorée
+# 🎈 Balloon Game - La meilleure version avec du html, css et js
 
 Un jeu où vous éclatez des ballons pour marquer des points, avec chronomètre, niveaux de difficulté, musique et effets sonores !
 
